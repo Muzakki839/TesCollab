@@ -1,65 +1,49 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <style>
-        /* CSS untuk styling navbar */
-        ul.navbar {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            background-color: #bf6789;
-            overflow: hidden;
-            display: flex; /* Membuat navbar menjadi flex container */
-            justify-content: space-between; /* Mengatur elemen di dalam navbar agar terdistribusi secara rata */
-            align-items: center; /* Mengatur elemen secara vertikal di tengah */
-            height: 20vh; /* Mengurangi tinggi navbar */
-        }
+/* CSS untuk styling navbar */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #bf6789;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
 
-        ul.navbar li {
-            float: left;
-        }
+ul.navbar li {
+    float: left;
+}
 
-        ul.navbar li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-        ul.navbar li a:hover {
-            background-color: #bf6789;
-        }
+ul.navbar li a:hover {
+    background-color: #bf6789;
+}
 
-        /* CSS untuk styling search bar */
-        .search-bar {
-            padding: 10px;
-            display: flex; /* Membuat search bar menjadi flex container */
-            align-items: center; /* Mengatur elemen secara vertikal di tengah */
-        }
+/* CSS untuk styling search bar */
+.search-bar {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
 
-        .search-bar input[type="text"] {
-            width: 200px; /* Menyesuaikan lebar search bar */
-        }
+.search-bar input[type="text"] {
+    width: 200px;
+}
 
-        /* CSS untuk styling shopping cart icon */
-        .shopping-cart {
-            margin-right: 20px; /* Jarak dari ujung kanan */
-        }
-    </style>
-</head>
-<body>
+/* CSS untuk styling shopping cart icon */
+.shopping-cart {
+    margin-right: 20px;
+}
 
-<ul class="navbar">
-    <img src="logo.png" alt="Logo" style="width: 100px;"> <!-- Menyesuaikan ukuran logo -->
-    <li class="search-bar">
-        <input type="text" placeholder="Search">
-        <button type="submit">Search</button>
-    </li>
-    <li class="shopping-cart">
-        <a href="#"><img src="shopping-cart-icon.png" alt="Shopping Cart" style="width: 30px;"></a> <!-- Ganti "shopping-cart-icon.png" dengan gambar ikon keranjang belanja Anda -->
-    </li>
-</ul>
-
-</body>
-</html>
+/* CSS untuk styling logo */
+.navbar-logo img {
+    width: 100px;
+}
