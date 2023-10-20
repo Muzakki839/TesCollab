@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.content {
+    width: 100%;
+    height: fit-content;
+    margin: 10px;
+}
+
+.v-ads {
+    background-color: #999;
+    width: 200px;
+    height: 700px;
+    margin-right: 10px
+}
+
+.card-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #999;
+    width: 200px;
+    height: 250px;
+    margin: 3px;
+    border-radius: 5px;
+}

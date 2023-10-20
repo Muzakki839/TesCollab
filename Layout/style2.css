@@ -1,0 +1,49 @@
+/* CSS untuk styling navbar */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #bf6789;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    background-color: #bf6789;
+}
+
+/* CSS untuk styling search bar */
+.search-bar {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    width: 200px;
+}
+
+/* CSS untuk styling shopping cart icon */
+.shopping-cart {
+    margin-right: 20px;
+}
+
+/* CSS untuk styling logo */
+.navbar-logo img {
+    width: 100px;
+}

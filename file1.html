@@ -1,1 +1,79 @@
-jadi ini file 1
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* CSS untuk styling navbar */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div.navbar {
+            margin: 0;
+            padding: 0;
+            background-color: #bf6789;
+            height: 20vh; /* Mengurangi tinggi navbar */
+        }
+
+        div.navbar div {
+            float: left;
+        }
+
+        div.navbar div a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        div.navbar div a:hover {
+            background-color: #bf6789;
+        }
+
+        /* CSS untuk styling search bar */
+        .search-bar {
+            padding: 10px;
+            display: flex; /* Membuat search bar menjadi flex container */
+            align-items: center; /* Mengatur elemen secara vertikal di tengah */
+        }
+
+        .search-bar input[type="text"] {
+            width: 200px; /* Menyesuaikan lebar search bar */
+        }
+
+        /* CSS untuk styling shopping cart icon */
+        .shopping-cart {
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin-right: 20px; /* Jarak dari ujung kanan */
+        }
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .column-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar center">
+    <div class="column-center">
+        <img src="logo.png" alt="Logo" style="width: 100px;"> <!-- Menyesuaikan ukuran logo -->
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <button type="submit">Search</button>
+        </div>        
+    </div>
+    <div class="shopping-cart"> 
+        <img src="shopping-cart-icon.png" alt="Shopping Cart" style="width: 30px;">
+    </div>
+</div>
+</body>
+</html>
